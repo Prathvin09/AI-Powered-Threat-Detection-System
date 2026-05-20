@@ -1,0 +1,17 @@
+fastapi>=0.115.0
+uvicorn>=0.32.0
+psutil>=6.1.1
+SQLAlchemy>=2.0.36
+scikit-learn>=1.5.2
+pandas>=2.2.3
+numpy>=1.26.4
+watchdog>=6.0.0
+python-multipart>=0.0.18
+websockets>=14.0
+reportlab>=4.3.0
+requests>=2.32.0
+APScheduler>=3.11.0
+pyshark>=0.6
+scapy>=2.5.0
+pymongo>=4.6.0
+dnspython>=2.4.0

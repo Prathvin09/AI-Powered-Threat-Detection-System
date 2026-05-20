@@ -1,0 +1,45 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Frontend node_modules & build output
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+node_modules/
+dist/
+build/
+
+# Databases & data stores
+sentinel.db
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+C:datadb/
+
+# Network captures (ignore everything inside except .gitkeep)
+pcap_captures/*
+!pcap_captures/.gitkeep
+
+# IDE and Editor Files
+.vscode/
+.qodo/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+Thumbs.db
+desktop.ini
